@@ -8,7 +8,8 @@ import io
 # ============================================================================
 # CONFIG
 # ============================================================================
-API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlfaWQiOiI1Zjc4Zjg2Yi0yMWZkLTQzODAtYjc5OC01MTI4OWIxNWY2ZTAiLCJvcmdfaWQiOiJwMk1mRHNvS01keldjalozeVNoUElWTXVYNFBTNW05UiIsImlhdCI6MTc4MjczNTIwNSwidmVyIjoxfQ.kL0I7i5pD1gjEiQFEVXCVXefYEgJ7RP9Yrc9ui_-KTM"  # Replace with your actual key
+import streamlit as st
+API_KEY = st.secrets["MOONDREAM_API_KEY"]
 CHECKPOINT_ID = "01KWVHDGSG3H40D9QDH9BY4A1T"
 QUESTION = "Is this biryani, gulab jamun, or seekh kebab? Answer with only the food name."
 
