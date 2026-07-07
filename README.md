@@ -11,7 +11,7 @@ This project demonstrates the practical application of Vision-Language Models (V
 - **Overall Accuracy**: 94.4%
 - **Dataset Size**: 120+ images across 3 classes
 - **Model**: Moondream3 (via API)
-- **Classification Approach**: Zero-shot VLM with structured prompting
+- **Classification Approach**: Moondream3 VLM with structured prompting
 
 ### Class-wise Performance
 - Seekh Kebab: ~96% accuracy
